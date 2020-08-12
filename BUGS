@@ -1,0 +1,5 @@
+Problemas conocidos:
+
+a) Si se cambia el valor del registro [TOPIC]->Presentacion, de debe eliminar manualmente el archivo [PlayListCS]. Ésto será así hasta que se dé una interfaz a la configuración del registro, por medio del cual se forzará la eliminación y creación de la playlist.
+
+b) libvlc no permite asignar un volúmen al archivo de audio antes de iniciar la reproducción. Ver: https://forum.videolan.org/viewtopic.php?f=32&t=104345

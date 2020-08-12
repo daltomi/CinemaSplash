@@ -1,0 +1,54 @@
+@ REM := Orden de registro descendente
+
+--------------------
+dom feb 10 06:54:49 ART 2013
+--------------------
+BUG#1: error grave, cuando se detenía el sonido presionando la tecla D, y
+luego se reproducía un trailer desde la vista previa, se producía un bloqueo
+debido a que se invocaba a CAudio::pause(), pero para entonces la instancia al
+audio no existía.
+
+FIXED: agregar en CAudio::Stop() -> m_MediaPlayer = 0;
+--------------------
+
+
+--------------------
+dom feb 10 06:59:37 ART 2013
+--------------------
+BUG#2: el paquete de instalación para Windows no elimina la clave del registro.
+
+FIXED: agregar al archivo de script de Inno Setup la orden correspondiente
+para que al momento de la desinstalación de CinemaSplash elimine la clave de
+registro.
+--------------------
+
+
+--------------------
+dom feb 10 07:01:39 ART 2013
+--------------------
+BUG#3: algunos nombres de clave de registro para Windows tienen tildes.
+
+FIXED: se eliminaron todos los nombres con tildes. Esto implica que los nuevos
+paquetes de instalación no son compatibles con los anteriores.
+--------------------
+
+
+--------------------
+dom feb 17 07:46:17 ART 2013
+--------------------
+BUG#4: cuando se cambia de tema musical(tecla 'm') es correcto que el volumen del audio
+baje paulatinamente, pero si en ese instante se vuelve a presionar la tecla
+'m' se solapan 2 temas musicales, es decir, se reproducen al mismo tiempo.
+
+FIXED: se agrego la llamada 'grabKeyboard' en MainWindow::PlayMusic
+--------------------
+
+
+
+--------------------
+dom feb 17 10:49:47 ART 2013
+--------------------
+Version 3.3
+Se corrigieron algunos bugs y se agregó la posibilidad de restaurar el
+registro: lanzando CinemaSplash con el parámetro --restore.
+--------------------

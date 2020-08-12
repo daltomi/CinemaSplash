@@ -1,0 +1,27 @@
+
+id ICON "app.ico"
+
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080904E4"
+    BEGIN
+      VALUE "CompanyName", "daltomi <daltomi@disroot.org>"
+      VALUE "FileDescription", "Reproductor de Tráiler's"
+      VALUE "FileVersion", "3.2"
+      VALUE "InternalName", "cinemasplash"
+      VALUE "LegalCopyright", "daltomi <daltomi@disroot.org> - Lic. GPL"
+      VALUE "OriginalFilename", "cinemasplash.exe"
+      VALUE "ProductName", "CinemaSplash"
+      VALUE "ProductVersion", "3.2"
+    END
+  END
+
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x809, 1252
+  END
+END

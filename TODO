@@ -1,0 +1,11 @@
+Tareas pendientes
+------------------
+
+* Implementar el acceso de escritura del registro de configuración.
+* Una interfaz para el manejo del registro de configuración.
+* Una interfaz para manejar los temas musicales.
+* Agregar información en la Lista de Reproducción sobre la duración de cada tráiler y el total de la lista.
+* Implementar una marquesina visible en pantalla con texto elegido por el cliente. Lo ideal sería una pequeña interfaz como un texbox el cual podría ser visible al presionar la tecla Enter y ocultarse con la misma tecla.
+* Visualizar alguna animación mientras suena el tema musical de fondo. Puede ser un equalizador gráfico.
+
+
