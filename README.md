@@ -20,10 +20,10 @@
 -----------------------------------------------------------
 
 
-<img src="https://git.disroot.org/cinemasplash/raw/branch/master/cinema_splash.png"/>
+<img src="https://git.disroot.org/daltomi/cinemasplash/raw/branch/master/cinema_splash.png"/>
 
 
-<img src="https://git.disroot.org/cinemasplash/raw/branch/master/screenshot.jpg"/>
+<img src="https://git.disroot.org/daltomi/cinemasplash/raw/branch/master/screenshot.jpg"/>
 
 
 CinemaSplash
