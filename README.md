@@ -1,8 +1,8 @@
 -----------------------------------------------------------
-    
+
     CinemaSplash  v.3.2
-    Copyright (c) 2012 daltomi <daltomi@disroot.org> 
-	
+    Copyright (c) 2012 daltomi <daltomi@disroot.org>
+
 	This file is part of CinemaSplash.
 
     CinemaSplash is free software: you can redistribute it and/or modify
@@ -20,10 +20,10 @@
 -----------------------------------------------------------
 
 
-<img src="https://git.disroot.org/daltomi/cinemasplash/raw/branch/master/cinema_splash.png"/>
+<img src="https://github.com/daltomi/cinemasplash/raw/master/cinema_splash.png"/>
 
 
-<img src="https://git.disroot.org/daltomi/cinemasplash/raw/branch/master/screenshot.jpg"/>
+<img src="https://github.com/daltomi/cinemasplash/raw/master/screenshot.jpg"/>
 
 
 CinemaSplash
@@ -65,7 +65,7 @@ CinemaSplash
 
 ¿CinemaSplash puede reproducir vídeos de mayor duración que un tráiler?
 	Si. CinemaSplash utiliza VLC para reproducir los vídeos, así que podría usarlo para reproducir una película, pero no es la finalidad de CinemaSplash.
-	
+
 ¿Existe algún archivo que guarde los errores que suceden?
 	Si. El archivo se llama cinema_splash_log.txt, y se encuentra en el directorio temporal, en Linux puede ser /tmp y en Windows es el directorio temporal de usuario, por ejemplo para el usuario DIDI seria: Documents and Settings/DIDI/Configuración local/Temp.
 
